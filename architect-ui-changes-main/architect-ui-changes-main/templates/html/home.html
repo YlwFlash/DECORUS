@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      /* background-color: black; */
+    }
+
+    .navbar.navbar-inverse {
+      background-color: transparent;
+      border: none;
+      /* position: relative; */
+    }
+
+    .navbar-nav>li {
+      padding: 10px 40px 10px 40px;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      height: 100vh;
+      overflow-x: hidden;
+
+    }
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+
+      .logo {
+        top: 25px;
+      }
+
+      navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 17px;
+        margin-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+      }
+
+      .row.content {
+        height: auto;
+      }
+
+      .ellipse-div {
+        display: none;
+      }
+
+      .txt {
+        height: 100vh;
+        width: 100%;
+      }
+
+      .txt h1 {
+        /* overflow: hidden; */
+        /* line-height: 1; */
+        font-size: x-large;
+        position: relative;
+      }
+
+      .txt h3 {
+        font-size: medium;
+      }
+
+      .txt p {
+        /* position: relative; */
+        width: 75%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-md">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#"></a> -->
+          <div class="logo">
+            <img src="../css/logo image.png">
+
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Go To Editor</a></li>
+            <li><a href="#" class="btn btn-default" style="color:#fff;font-weight: 500;">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+      <div class="row content">
+        <div class="ellipse-div col-md-8" style="left: 400px;top: -200px;">
+          <div class="ellips2 col-sm-2"
+            style="width: 400px;height: 400px;border-radius: 100%;background-color: #d8cda0;position:absolute;top: 350px;left: 300px; filter: blur(304px);">
+          </div>
+          <div class="ellips3 col-sm-2"
+            style="width: 400px;height: 400px;border-radius: 100%;background-color: #5f6653;position:absolute;top: 470px;left: 900px; filter: blur(274px);">
+          </div>
+          <img src="../css/home3d.png" style="position: relative;top: 300px;left: -250px;width: 1300px;height: 600px;">
+
+        </div>
+        <div class="txt col-md-4">
+          <h1>
+            IMMERSE YOURSELF
+          </h1>
+          <h3>
+            UNLEASH YOUR IMAGINATION
+          </h3>
+          <br>
+          <br>
+          <p>Imagine strolling through the rooms of your dream home, virtually walking through spaces that resonate with
+            your style and preferences. Our 3D VR tours redefine the home-buying experience, allowing you to interact
+            with every nook and cranny, envisioning a future where your lifestyle seamlessly merges with the
+            architecture and design.
+          <div class="btn">
+            <button type="button" class="btn2 btn-link"><a
+                href="../../../architect-ui-changes-main/architect-ui-changes-main/build/index.html"
+                style="color:#ff7212">EXPLORE
+                3D</a></button>
+          </div>
+          </p>
+        </div>
+
+        <!-- <div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div> -->
+      </div>
+    </div>
+
+    <!-- <footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer> -->
+
+</body>
+
+</html>

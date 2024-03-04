@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.asus       {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+/* .nav.navbar-nav{
+} */
+.row.dhruval{
+    background-color: green;
+    width: 200px;
+    height: 720px;
+}
+.tut{
+    background-color: blueviolet;
+    width: 60%;
+    height: 720px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+}

@@ -1,0 +1,87 @@
+@import url("https://fonts.google.com/specimen/Source+Serif+4?query=source+");
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    overflow: hidden;
+    background: #000;
+}
+.asus       {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+/* .nav.navbar-nav{
+} */
+.row.dhruval{
+    background-color: green;
+    width: 200px;
+    height: 720px;
+}
+.tut{
+    background-color: blueviolet;
+    width: 60%;
+    height: 720px;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus{
+    border-bottom: #50e4e6af 2px solid;
+    /* color:#50e4e6af!important; */
+    font-weight: 500!important;
+    /* padding: 20px 0px; */
+}
+/* .navbar-nav li a:hover{
+    /* color: #50e4e6af!important; 
+} */
+
+
+.ellipse-div {
+    position: absolute; 
+    transform: rotateY(45deg);
+    border-radius: 50%;
+    background-color: #0f0f0f;
+    width: 110%;
+    height: 1100px;
+    z-index: -1;
+    top: -199px;
+    left:785px;
+    box-shadow: 12px 12px 15px px gold, 10px 2px 14px 3px darkgoldenrod ;
+
+}
+.txt{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content: left;
+}
+
+.txt h1,.txt h3{
+    color: #fff;
+    font-variant:uppercase;
+    font-family: 'source sherif4';
+    line-height: 0;
+    text-align: left;
+}
+.txt p{
+    color: #fff;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+.btn{
+    background: linear-gradient(90deg, rgb(21.16, 126.7, 141.09) 0%, rgba(186.79, 246.82,255,0)100%);
+    border: #2d7d87 1px solid;
+    color:#fff ;
+    /* height: 39px; */
+    width:147px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
