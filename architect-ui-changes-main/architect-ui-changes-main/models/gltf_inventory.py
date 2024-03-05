@@ -2,7 +2,9 @@ import os;
 from shutil import copyfile;
 import json;
 import numpy as np;
-from scipy.interpolate.interpolate_wrapper import logarithmic
+from scipy.interpolate import logarithmic
+# from scipy.interpolate.interpolate_wrapper import logarithmic
+from scipy.interpolate import interpolate_wrapper
 import matplotlib.cm as cm;
 from matplotlib.cm import get_cmap;
 import matplotlib.colors as clrs;
